@@ -14,7 +14,7 @@ cupertino_icons: ^1.0.2
 lottie: ^2.0.0
   audioplayers: ^1.1.1
 
-https://user-images.githubusercontent.com/102044657/203907571-ccd98c6d-f3a1-42bd-9a38-3ee77bb2f48a.mp4    here is the video of working app.
+ https://drive.google.com/drive/folders/1ye61pTHnCZNtykak5Nj-EqpZMNUqjJMh?usp=sharing here is the videos of working app.
 
 To run the app just pull it or open .zip, go pub run and you are good to go, ready for flutter run!
 
