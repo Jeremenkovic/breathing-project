@@ -19,7 +19,7 @@ class CustomTimerPainter1 extends CustomPainter {
       ..style = PaintingStyle.stroke;
 
     canvas.drawCircle(size.center(Offset.zero), size.width / 2.0, paint);
-    paint.color = Color.fromARGB(255, 230, 205, 124);
+    paint.color = Color.fromARGB(255, 20, 20, 20);
     double progress = (1.0 - animation.value) * 2 * math.pi * (4 / 19);
     canvas.drawArc(Offset.zero & size, math.pi * 1.5, progress, false, paint);
   }
@@ -48,7 +48,7 @@ class CustomTimerPainter2 extends CustomPainter {
       ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke;
 
-    paint.color = Color.fromARGB(255, 226, 191, 73);
+    paint.color = Color.fromARGB(255, 20, 20, 20);
     double progress = (1.0 - animation.value) * 2 * math.pi * (7 / 19);
     canvas.drawArc(
         Offset.zero & size, math.pi * (173 / 90), progress, false, paint);
@@ -78,8 +78,7 @@ class CustomTimerPainter3 extends CustomPainter {
       ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke;
 
-    
-    paint.color = Color.fromARGB(255, 219, 168, 0);
+    paint.color = Color.fromARGB(255, 20, 20, 20);
     double progress = (1.0 - animation.value) * 2 * math.pi * (8 / 19);
     canvas.drawArc(
         Offset.zero & size, math.pi * (479 / 180), progress, false, paint);
